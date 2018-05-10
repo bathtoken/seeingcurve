@@ -19,7 +19,7 @@ email: tombinnie1@hotmail.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   A blog full of Nippon Pro Baseball data analysis and visualisation.
 baseurl: "/seeingcurve" # the subpath of your site, e.g. /blog
-url: "bathtoken.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bathtoken.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
