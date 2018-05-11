@@ -2,16 +2,14 @@
 layout: post
 title:  "Kensuke Kondo just stopped swinging, and it worked."
 date:   2018-05-10 21:16:42 +0100
-categories: Catcher, Fighters, Hitting
+categories: article
 ---
 
 
-## This is another test, of the "posts" folder. If this works, a new post should appear
+# No one is walking quite like Hokkaido's Kondo.
 
-in
+Among qualified batters...
 
-the
+Image test
 
-website.
-
-Let's see.
+[<img src="https://i.imgur.com/RUZi51e.png?1">](https://public.tableau.com/profile/tom.binnie#!/vizhome/Kondoswing2018/Dashboard)
