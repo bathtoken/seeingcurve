@@ -11,11 +11,13 @@ categories: article
 Among qualified batters...
 
 ---
-<div style="position: relative;">
+<div id="viz1526051297567" class="tableauPlaceholder" style="position: relative;">
 	<noscript>
-		<img alt='Kondo Kensuke Swing Rates compared with Pacific League Average ' src='https://public.tableau.com/static/images/Ko/Kondoswing2018/Dashboard/1_rss.png' style='border: none' />
+		<a href='https://bathtoken.github.io/seeingcurve/article/2018/05/10/kondo-swing-rate.html'>
+			<img alt='Kondo Kensuke Swing Rates compared with Pacific League Average ' src='https://public.tableau.com/static/images/Ko/Kondoswing2018/Dashboard/1_rss.png' style='border: none' />
+		</a>
 	</noscript>
-	<object style="display: none;" width="300" height="150">
+	<object class="tableauViz" style="display: none;" width="300" height="150">
 		<param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
 		<param name="embed_code_version" value="3" />
 		<param name="site_root" value="" />
