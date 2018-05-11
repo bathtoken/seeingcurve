@@ -15,7 +15,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Seeing Curve
-email: seeingcurve@protonmail.com
+email: seeingcurve@pm.me
 description: >- # this means to ignore newlines until "baseurl:"
   A blog full of NPB data analysis and visualisation.
 baseurl: "/seeingcurve" # the subpath of your site, e.g. /blog
