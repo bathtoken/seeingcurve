@@ -8,12 +8,18 @@ categories: article
 
 # No one is walking quite like Hokkaido's Kondo.
 
+<br>
 
-Among qualified batters...
+<p> Among qualified batters...</p>
 
+<div><iframe align = "center" width = "600" height = "400" src="https://public.tableau.com/views/Kondoswing2018/Swing?:embed=y&:display_count=yes&publish=yes"></iframe></div>
 
+<br>
 
-<iframe align = "center" width = "600" height = "400" src="https://public.tableau.com/views/Kondoswing2018/Swing?:embed=y&:display_count=yes&publish=yes"/>
-
-
+<p>
 Will this text appear?
+</p>
+
+<p>
+Will the footer appear?
+</p>
