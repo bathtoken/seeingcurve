@@ -230,7 +230,9 @@ pre {
  */
 table {
   margin-bottom: $spacing-unit;
-  width: 100%;
+  width: 50%;
+   margin-left: 25%;
+   margin-right: 25%;
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
