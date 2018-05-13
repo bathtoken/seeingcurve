@@ -79,4 +79,4 @@ relevant given that we're seeing that off-speed pitch slightly more and the heat
 
 More than anything right now, I wish I had access to some Brooks-baseball-esque zone and pitch type data for NPB games. As it stands, I have a theory that Norimoto's slow start is at least partially the result of (a somewhat league-wide trend of) giving the heater a break and instead favouring his breaking and off-speed pitches in certain counts/situations. Disappointingly, I don't think my search has managed to uncover where 2017 Norimoto has gone. That said, I expect we'll see him soon.
 
->All data sourced from http://1point02.jp/op/index.aspx
+>All data sourced from [http://1point02.jp/op/index.aspx](http://1point02.jp/op/index.aspx)
