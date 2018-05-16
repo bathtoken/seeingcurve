@@ -8,27 +8,7 @@ layout: default
   {%- endif -%}
 
   {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    
-  {%- endif -%}
+  
+  <div style="text-align:right"><a href="https://baseball-data.com/"><img src="https://baseball-data.com/bp/st/header-bk.png" style="height:40px;border:0;margin:0;padding:0" alt="プロ野球データFreak"></a><br><a href="https://baseball-data.com/team/ce.html"><img src="https://baseball-data.com/bp/st/bk-ce.png" style="height:168px;border:0;margin:0;padding:0" alt="セリーグ順位表"></a><br><a href="https://baseball-data.com/team/pa.html"><img src="https://baseball-data.com/bp/st/bk-paf.png" style="height:187px;border:0;margin:0;padding:0" alt="パリーグ順位表"></a></div>
 
 </div>
