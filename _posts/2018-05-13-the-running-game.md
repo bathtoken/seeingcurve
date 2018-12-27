@@ -5,6 +5,16 @@ date:   2018-05-14 10:58 +1000
 categories: article
 ---
 
+This article begins with a disclaimer: I don't really know all that much about NPB history. The few things I do know about the league's storied past tend to be statistical accountings of great seasons or careers gone by. I love that kind of history, but it has a hole. I know what happened, but I don't know how, and I don't know why. I think that's one of the reasons I found the topic of this piece so interesting when I stumbled upon it. I hope you will too.
+
+Baseball is better with a bit of speed. Home runs are great and all, and you don't need to have a firm grasp of RE24 to
+
+
+
+<div style="text-align: center"><img src="https://i.imgur.com/U47vC46.png"/></div>
+
+
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}

@@ -2,13 +2,10 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<h2>Most Recent</h2>
 
-  {{ content }}
-  
-  <div style="text-align:right"><a href="https://baseball-data.com/"><img src="https://baseball-data.com/bp/st/header-bk.png" style="height:40px;border:0;margin:0;padding:0" alt="プロ野球データFreak"></a><br><a href="https://baseball-data.com/team/ce.html"><img src="https://baseball-data.com/bp/st/bk-ce.png" style="height:168px;border:0;margin:0;padding:0" alt="セリーグ順位表"></a><br><a href="https://baseball-data.com/team/pa.html"><img src="https://baseball-data.com/bp/st/bk-paf.png" style="height:187px;border:0;margin:0;padding:0" alt="パリーグ順位表"></a></div>
-
+<div class="blog-index">
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include post_detail.html %}
 </div>
