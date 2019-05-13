@@ -2,6 +2,238 @@
 layout: default
 ---
 
+<header>
+	<!-- 試合速報のインクルード取込 ここから -->
+	<div id="header_score">
+  <div class="score_wrap">
+    <div class="score_box date">2019<br>5/14 Tue.</div>
+
+        <div class="score_box">
+      <a href="/scores/2019/0514/g-t-07/">
+      <img src="/img/common/logo/2019/logo_g_s.gif" alt="読売ジャイアンツ" title="読売ジャイアンツ" class="logo_left">
+      <img src="/img/common/logo/2019/logo_t_s.gif" alt="阪神タイガース" title="阪神タイガース" class="logo_right">
+      <div class="score">-</div>
+      <div class="state">（東京ドーム）<br class="hide_pc">18:00</div>
+      </a>
+    </div>
+        <div class="score_box">
+      <a href="/scores/2019/0514/db-d-06/">
+      <img src="/img/common/logo/2019/logo_db_s.gif" alt="横浜DeNAベイスターズ" title="横浜DeNAベイスターズ" class="logo_left">
+      <img src="/img/common/logo/2019/logo_d_s.gif" alt="中日ドラゴンズ" title="中日ドラゴンズ" class="logo_right">
+      <div class="score">-</div>
+      <div class="state">（横　浜）<br class="hide_pc">17:45</div>
+      </a>
+    </div>
+        <div class="score_box">
+      <a href="/scores/2019/0514/c-s-07/">
+      <img src="/img/common/logo/2019/logo_c_s.gif" alt="広島東洋カープ" title="広島東洋カープ" class="logo_left">
+      <img src="/img/common/logo/2019/logo_s_s.gif" alt="東京ヤクルトスワローズ" title="東京ヤクルトスワローズ" class="logo_right">
+      <div class="score">-</div>
+      <div class="state">（マツダ）<br class="hide_pc">18:00</div>
+      </a>
+    </div>
+        <div class="score_box">
+      <a href="/scores/2019/0514/e-f-07/">
+      <img src="/img/common/logo/2019/logo_e_s.gif" alt="東北楽天ゴールデンイーグルス" title="東北楽天ゴールデンイーグルス" class="logo_left">
+      <img src="/img/common/logo/2019/logo_f_s.gif" alt="北海道日本ハムファイターズ" title="北海道日本ハムファイターズ" class="logo_right">
+      <div class="score">-</div>
+      <div class="state">（楽天生命）<br class="hide_pc">13:00</div>
+      </a>
+    </div>
+        <div class="score_box">
+      <a href="/scores/2019/0514/h-l-07/">
+      <img src="/img/common/logo/2019/logo_h_s.gif" alt="福岡ソフトバンクホークス" title="福岡ソフトバンクホークス" class="logo_left">
+      <img src="/img/common/logo/2019/logo_l_s.gif" alt="埼玉西武ライオンズ" title="埼玉西武ライオンズ" class="logo_right">
+      <div class="score">-</div>
+      <div class="state">（北九州）<br class="hide_pc">18:00</div>
+      </a>
+    </div>
+    
+    <div class="score_box detail hide_sp"><a href="/scores/">&gt;&gt;</a></div>
+  </div>
+  <div class="score_box detail hide_pc"><a href="/scores/">&gt;&gt;</a></div>
+</div>
+<script>
+$(function($) {
+  $('#header_team').addClass("hide_pc");
+});
+</script>
+
+	<!-- 試合速報のインクルード取込 ここまで -->
+
+	<div id="header_team" class="hide_sp hide_pc">
+		<div class="team_list">
+			<ul class="league">
+				<li><a href="/cl/" onclick="ga('send', 'event', 'header', 'click', this.href);"><img src="http://p.npb.jp/img/common/logo/flag_central_s.gif" width="59" height="38" alt="セントラル・リーグ" title="セントラル・リーグ"></a></li>
+				<li><a href="http://www.carp.co.jp/" target="_blank" onclick="ga('send', 'event', 'header', 'click', this.href);"><img src="http://p.npb.jp/img/common/logo/2019/logo_c_m.gif" width="38" height="38" alt="広島東洋カープ" title="広島東洋カープ"></a></li>
+				<li><a href="http://www.yakult-swallows.co.jp/" target="_blank" onclick="ga('send', 'event', 'header', 'click', this.href);"><img src="http://p.npb.jp/img/common/logo/2019/logo_s_m.gif" width="38" height="38" alt="東京ヤクルトスワローズ" title="東京ヤクルトスワローズ"></a></li>
+				<li><a href="http://www.giants.jp/" target="_blank" onclick="ga('send', 'event', 'header', 'click', this.href);"><img src="http://p.npb.jp/img/common/logo/2019/logo_g_m.gif" width="38" height="38" alt="読売ジャイアンツ" title="読売ジャイアンツ"></a></li>
+				<li><a href="http://www.baystars.co.jp/" target="_blank" onclick="ga('send', 'event', 'header', 'click', this.href);"><img src="http://p.npb.jp/img/common/logo/2019/logo_db_m.gif" width="38" height="38" alt="横浜DeNAベイスターズ" title="横浜DeNAベイスターズ"></a></li>
+				<li><a href="http://dragons.jp/" target="_blank" onclick="ga('send', 'event', 'header', 'click', this.href);"><img src="http://p.npb.jp/img/common/logo/2019/logo_d_m.gif" width="38" height="38" alt="中日ドラゴンズ" title="中日ドラゴンズ"></a></li>
+				<li><a href="http://hanshintigers.jp/" target="_blank" onclick="ga('send', 'event', 'header', 'click', this.href);"><img src="http://p.npb.jp/img/common/logo/2019/logo_t_m.gif" width="38" height="38" alt="阪神タイガース" title="阪神タイガース"></a></li>
+			</ul>
+			<ul class="league">
+				<li><a href="/pl/" onclick="ga('send', 'event', 'header', 'click', this.href);"><img src="http://p.npb.jp/img/common/logo/flag_pacific_s.gif" width="59" height="38" alt="パシフィック・リーグ" title="パシフィック・リーグ"></a></li>
+				<li><a href="http://www.seibulions.jp/" target="_blank" onclick="ga('send', 'event', 'header', 'click', this.href);"><img src="http://p.npb.jp/img/common/logo/2019/logo_l_m.gif" width="38" height="38" alt="埼玉西武ライオンズ" title="埼玉西武ライオンズ"></a></li>
+				<li><a href="http://www.softbankhawks.co.jp/" target="_blank" onclick="ga('send', 'event', 'header', 'click', this.href);"><img src="http://p.npb.jp/img/common/logo/2019/logo_h_m.gif" width="38" height="38" alt="福岡ソフトバンクホークス" title="福岡ソフトバンクホークス"></a></li>
+				<li><a href="http://www.fighters.co.jp/" target="_blank" onclick="ga('send', 'event', 'header', 'click', this.href);"><img src="http://p.npb.jp/img/common/logo/2019/logo_f_m.gif" width="38" height="38" alt="北海道日本ハムファイターズ" title="北海道日本ハムファイターズ"></a></li>
+				<li><a href="http://www.buffaloes.co.jp/" target="_blank" onclick="ga('send', 'event', 'header', 'click', this.href);"><img src="http://p.npb.jp/img/common/logo/2019/logo_b_m.gif" width="38" height="38" alt="オリックス・バファローズ" title="オリックス・バファローズ"></a></li>
+				<li><a href="http://www.marines.co.jp/" target="_blank" onclick="ga('send', 'event', 'header', 'click', this.href);"><img src="http://p.npb.jp/img/common/logo/2019/logo_m_m.gif" width="38" height="38" alt="千葉ロッテマリーンズ" title="千葉ロッテマリーンズ"></a></li>
+				<li><a href="http://www.rakuteneagles.jp/" target="_blank" onclick="ga('send', 'event', 'header', 'click', this.href);"><img src="http://p.npb.jp/img/common/logo/2019/logo_e_m.gif" width="38" height="38" alt="東北楽天ゴールデンイーグルス" title="東北楽天ゴールデンイーグルス"></a></li>
+			</ul>
+			<ul class="samurai">
+				<li><a href="http://www.japan-baseball.jp/" target="_blank" onclick="ga('send', 'event', 'header', 'click', this.href);"><img src="http://p.npb.jp/img/common/logo/logo_samurai_s.gif" width="49" height="49" alt="侍ジャパン" title="侍ジャパン"></a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="header_nav">
+		<div class="wrap">
+			<h1><a href="/">日本野球機構オフィシャルサイト</a></h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="/games/">試合</a>
+						<div class="menu unit">
+							<ul>
+								<li><a href="/games/">セ・パ公式戦</a></li>
+								<li><a href="/announcement/">公示</a></li>
+								<li><a href="/interleague/">セ・パ交流戦</a></li>
+								<li><a href="/nippons/">日本シリーズ</a></li>
+								<li><a href="/allstar/">オールスター・ゲーム</a></li>
+								<li><a href="/preseason/">オープン戦</a></li>
+							</ul>
+							<ul>
+								<li><a href="/farm/">ファーム公式戦</a></li>
+								<li><a href="/farmchamp/">ファーム日本選手権</a></li>
+								<li><a href="/freshas/">フレッシュオールスター・ゲーム</a></li>
+								<li><a href="/challenge/">イースタン・リーグ チャレンジ・マッチ</a></li>
+								<li><a href="/preseason_farm/">春季教育リーグ</a></li>
+								<li><a href="/phoenix/">秋季教育リーグ</a></li>
+							</ul>
+							<ul>
+								<li><a href="/exhibition/">特別試合</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="/bis/2019/stats/">成績・記録</a>
+						<div class="menu unit">
+							<ul>
+								<li><a href="/bis/2019/stats/">シーズン成績</a></li>
+								<li><a href="/award/">表彰選手</a></li>
+								<li><a href="/history/">達成記録</a></li>
+								<li><a href="/bis/yearly/">年度別成績（1936-2018）</a></li>
+								<li><a href="/bis/history/">歴代最高記録（通算記録・シーズン記録）</a></li>
+								<li><a href="/stadium/">球場情報</a></li>
+							</ul>
+							<ul>
+								<li><a href="/statistics/">統計データ</a></li>
+								<li><a href="/scoring/">野球の記録について</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="/teams/">球団・選手</a>
+						<div class="menu unit">
+							<ul>
+								<li><a href="/teams/">球団別インデックス</a></li>
+								<li><a href="/bis/teams/">選手一覧</a></li>
+								<li><a href="/bis/players/">個人年度別成績</a></li>
+								<li><a href="/announcement/">公示</a></li>
+								<li><a href="/draft/">ドラフト会議</a></li>
+								<li><a href="/camp/">キャンプガイド</a></li>
+							</ul>
+							<ul>
+								<li><a href="/cl/">セントラル・リーグ</a></li>
+								<li><a href="/pl/">パシフィック・リーグ</a></li>
+								<li><a href="/umpires/">審判員・記録員</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="/premier/2019/">日本代表</a>
+						<div class="menu unit">
+							<ul>
+								<li><a href="/wbc/">ワールド・ベースボール・クラシック</a></li>
+								<li><a href="/premier/">WBSC プレミア12</a></li>
+								<li><a href="/olympic/">オリンピック競技大会</a></li>
+								<li><a href="/apbc/">アジア プロ野球チャンピオンシップ</a></li>
+								<li><a href="/japan/">侍ジャパン強化試合</a></li>
+								<li><a href="/japanus/">日米野球</a></li>
+							</ul>
+							<ul>
+								<li><a href="/alljapan/">野球日本代表（その他）</a></li>
+								<li><a href="/asia/">アジアシリーズ／日韓クラブCS</a></li>
+								<li><a href="/winterleague/">ウインター・リーグ</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="/news/npb_all.html">ニュース</a>
+						<div class="menu unit">
+							<ul>
+								<li><a href="/news/npb_all.html">NPBニュース</a></li>
+								<li><a href="/news/teamnews_all.html">12球団ニュース</a></li>
+								<li><a href="/npb/">NPBからのお知らせ</a></li>
+								<li><a href="/event/">プロ野球年間行事日程</a></li>
+								<li><a href="/event/nenkan/">スケジュールカレンダー</a></li>
+								<li><a href="/video/">NPBムービー</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="/slogan/">事業・振興</a>
+						<div class="menu unit">
+							<ul>
+								<li><a href="/slogan/">NPBスローガン</a></li>
+								<li><a href="/npb/#ctg01">試合観戦契約約款/暴力団等排除活動</a></li>
+								<li><a href="/anti-doping/">アンチ・ドーピング</a></li>
+								<li><a href="/rookie/">新人選手研修会</a></li>
+								<li><a href="/npb/#ctg23">セカンドキャリア</a></li>
+								<li><a href="/npb/kaifuku.html">学生野球資格回復制度</a></li>
+							</ul>
+							<ul>
+								<li><a href="/umpireschool/">NPBアンパイア・スクール</a></li>
+								<li><a href="/npb/#ctg25">野球振興</a></li>
+								<li><a href="/junior/">12球団ジュニアトーナメント</a></li>
+								<li><a href="/girls/">NPBガールズトーナメント</a></li>
+								<li><a href="/npb/#ctg21">東日本大震災復興支援</a></li>
+								<li><a href="/bbfesta/">ベースボールフェスタ</a></li>
+							</ul>
+							<ul>
+								<li><a href="/auction/">チャリティーオークション</a></li>
+								<li><a href="/gbp/">NPB Green Baseball Project</a></li>
+								<li><a href="/cool/">環境貢献活動</a></li>
+								<li><a href="/esports/">eスポーツ</a></li>
+								<li><a href="/kyogikai/">日本野球協議会</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="http://shop.npb.or.jp/npbshop/ad.html?ccd=t10092408" target="_blank" onclick="ga('send', 'event', 'menu', 'click', this.href);">グッズ</a>
+						<div class="menu unit">
+							<ul>
+								<li><a href="/books/">グッズ・書籍のご案内</a></li>
+								<li><a href="/game/">承認ゲームメーカー</a></li>
+								<li><a href="http://shop.npb.or.jp/npbshop/ad.html?ccd=t10092408" target="_blank" onclick="ga('send', 'event', 'gd_menu', 'click', this.href);">NPBオフィシャルオンラインショップ</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</nav>
+			<div class="social">
+				<ul>
+					<li><a href="/eng/">English</a></li>
+					<li class="tw"><a href="https://twitter.com/npb" target="_blank" onclick="ga('send', 'event', 'header', 'click', this.href);"></a></li>
+					<li class="fb"><a href="https://www.facebook.com/npb.official/" target="_blank" onclick="ga('send', 'event', 'header', 'click', this.href);"></a></li>
+					<li class="sp_menu hide_pc" id="sp_menu"><a href="#"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
 <h2>Most Recent</h2>
 
 <div class="blog-index">
