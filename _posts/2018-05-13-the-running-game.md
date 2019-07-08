@@ -1,21 +1,16 @@
 ---
 layout: post
 title:  "The Running Game"
-date:   2018-12-01 10:58 +1000
+date:   2019-7-01 10:58 +1000
 categories: article
 ---
 
-This article begins with a disclaimer: I don't really know all that much about NPB history. The few things I do know about the league's storied past tend to be statistical accountings of great seasons or careers gone by. I love that kind of history, but it has a hole. I know what happened, but I don't know how, and I don't know why. I think that's one of the reasons I found the topic of this piece so interesting when I stumbled upon it. I hope you will too.
-
-Baseball is better with a bit of speed. Home runs are great and all, and you don't need to have a firm grasp of RE24 to know how valuable the long ball can be.
 
 #WIP#
 
-
-
-<div style="text-align: center"><img src="https://i.imgur.com/U47vC46.png"/></div>
-
-
+<br>
+<div style="text-align: center"><img src="https://i.imgur.com/V1wLm38.png"/></div>
+<br>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
